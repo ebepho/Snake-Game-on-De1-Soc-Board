@@ -1,10 +1,12 @@
 # Snake Game on DE1-SoC FPGA Board
+## Disclaimer
+
+This final project is intended to showcase the skills and knowledge I acquired during one of my classes. It is provided for educational and informational purposes only. If you are a student, please do not use this code to complete your own assignments or projects. Doing so may violate your institution's academic integrity policies. I am not responsible for any misuse of the code, including but not limited to academic dishonesty or plagiarism. By using the code in this repository, you agree to use it responsibly and ethically.
+
+This project utilizes VGA and PS2 adapters for display and input functionalities, respectively. These adapters are proprietary to the University of Toronto and are not included in this repository due to copyright restrictions. Interested parties are encouraged to search online for similar VGA and PS2 adapter implementations that are compatible with the DE1-SoC FPGA board.
 
 ## Overview
 This project is a hardware implementation of the classic Snake game, crafted in SystemVerilog for the DE1-SoC FPGA board. It integrates a VGA display for output and a PS2 keyboard for input, delivering a retro gaming experience with modern hardware design techniques. Through efficient use of finite state machines, a pseudo-random number generator for dynamic gameplay, and on-chip RAM for state management, the game aims to provide an engaging and smooth user experience.
-
-## Important Note
-This project utilizes VGA and PS2 adapters for display and input functionalities, respectively. These adapters are proprietary to the University of Toronto and are not included in this repository due to copyright restrictions. Interested parties are encouraged to search online for similar VGA and PS2 adapter implementations that are compatible with the DE1-SoC FPGA board.
 
 ## Features
 * **Dynamic VGA Display:** Achieved through single buffering for seamless visual output.
