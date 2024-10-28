@@ -41,7 +41,7 @@ module snake_game(
 	
 	
 	
-	// KEYBOARD - TEHREEM
+	// KEYBOARD - PHOEBE
 	keyboard_input keys(
 		// Inputs
 		.iClock(CLOCK_50), 
@@ -58,7 +58,7 @@ module snake_game(
 	);
 	
 	
-	// KEYBOARD - UofT
+	// KEYBOARD - UOFT
 	PS2_Demo keyboard(
 		// Inputs
 		.CLOCK_50(CLOCK_50),
@@ -73,7 +73,7 @@ module snake_game(
 		);
 		
 
-	// VGA datapath - TEHREEM
+	// VGA datapath - PHOEBE
 	vga draw(
 		// Inputs
 		.iClock(CLOCK_50), 
